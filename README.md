@@ -1,7 +1,7 @@
-# Square Logcat
+# Logdog
 
 ```kotlin
-logcat { "I CAN HAZ LOGZ?" }
+logdog { "I CAN HAZ LOGZ?" }
 ```
 
 A tiny Kotlin API for cheap logging on top of Android's normal `Log` class.
@@ -23,7 +23,7 @@ Add the `logcat` dependency to your library or app's `build.gradle` file:
 
 ```gradle
 dependencies {
-  implementation 'com.squareup.logcat:logcat:0.1'
+  implementation 'dev.forcetower.kmm.toolkit:logdog:0.1'
 }
 ```
 

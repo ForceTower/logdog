@@ -1,6 +1,18 @@
-rootProject.name = "logcat"
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
+pluginManagement {
+    repositories {
+        google()
+        gradlePluginPortal()
+        mavenCentral()
+    }
+}
 
-include(
-    ":logcat",
-    ":sample"
-)
+dependencyResolutionManagement {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "KMPLogger"
+include(":logdog")
